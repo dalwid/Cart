@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap");
+
+html,
+body {
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+#container {
+  width: 800px;
+  margin: 0 auto;
+  background-color: azure;
+  padding: 10px;
+  border: black solid 2px;
+  text-align: center;
+}
+
+#cart-total {
+  background-color: chartreuse;
+  padding: 10px;
+}
+
+#no-products {
+  font-size: 18px;
+}
+
+#cart-qty-products {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#container a {
+  text-decoration: none;
+  color: darkblue;
+}
+
+#cart-total-clear {
+  display: flex;
+  justify-content: center;
+}
+
+#cart-clear {
+  background-color: tomato;
+  padding: 10px;
+  margin-left: 5px;
+}
+
+#cart-clear a {
+  text-decoration: none;
+  color: white;
+}
+
+a#cart-remove {
+  font-weight: bold;
+}
+
+a#cart-remove:hover {
+  color: tomato;
+}
+
+a#cart-add {
+  font-weight: bold;
+}
+
+a#cart-add:hover {
+  color: dodgerblue;
+}
+
+#cart-input-qty {
+  width: 15px;
+}
+
+.cart-product {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

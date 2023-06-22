@@ -1,0 +1,16 @@
+{
+    "name": "mycart/mycart",
+    "description": "entendo carrinho de compras com php",
+    "autoload": {
+        "psr-4": {
+            "app\\": "app"
+        }
+    },
+    "authors": [
+        {
+            "name": "David Teixeira Pereira Ferreira",
+            "email": "davidbenavraham.ti@gmail.com"
+        }
+    ],
+    "require": {}
+}
